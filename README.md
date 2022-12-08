@@ -5,6 +5,7 @@ Hened Medina A01248005
 
 Part 1
 -----------
+The commands to update most of the software on Ubuntu OS
 
 ```
 sudo apt update
@@ -17,15 +18,15 @@ Part 2
 
 **Note:** Number lines were showed using `:set number` in Normal Mode
 
-1. `-eq 1` was changed to `-eq 0` by  using the command in Normal Mode `:%s/1/0/gci` and selcing `y` for the first occurence and `n` for the second
+1. "-eq 1" was changed to "-eq 0" by  using the command in Normal Mode `:%s/1/0/gci` and selecting `y` for the first occurence and `n` for the second
 
 
-2. `temperature[F|V|K]` was changed to `temperature[F|C|K]` by using the command in Normal Mode `:2s/V/C/gci` with 2 representing the number line
+2. "temperature[F|V|K]" was changed to "temperature[F|C|K]" by using the command in Normal Mode `:2s/V/C/gci` with 2 representing the number line
 
 
-3. ` V    indicates input is in Celsius` was changed to ` C    indicates input is in Celsius` by using the command in Normal Mode `:5s/V/C/gci` with 5 representing the number line
+3. " V    indicates input is in Celsius" was changed to " C    indicates input is in Celsius" by using the command in Normal Mode `:5s/V/C/gci` with 5 representing the number line
 
-4. `:digit:` was changed to `numbs` by using the command in Normal Mode `:10s/:digit:/numbs/gci` with 10 representing the number line
+4. ":digit:" was changed to "numbs" by using the command in Normal Mode `:10s/:digit:/numbs/gci` with 10 representing the number line
 
 
 Part 3
