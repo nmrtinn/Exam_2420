@@ -47,6 +47,7 @@ I used `warning` to search for the warning keyword and found the `-p` or `--prio
 I used the `output` keyword and found the `-o` or `--output` option and scrolled down to find the `json` output
 
 
+Here is a photo of the command
 
 ![](Images/part3command.JPG)
 
